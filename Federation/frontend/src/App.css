@@ -1,0 +1,126 @@
+/* Page */
+.page {
+    min-height: 100vh;
+    background: #f4f6f9;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 18px;
+}
+
+/* User Card */
+.user-card {
+    background: #ffffff;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.email {
+    margin: 4px 0 0 0;
+    color: #666;
+}
+
+.badge {
+    background: #4f46e5;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Section */
+.section-title {
+    margin-bottom: 16px;
+    color: #333;
+}
+
+/* Order Card */
+.order-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    margin-bottom: 24px;
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.order-total {
+    font-weight: 700;
+    color: #16a34a;
+    font-size: 16px;
+}
+
+.divider {
+    height: 1px;
+    background: #eee;
+    margin: 16px 0;
+}
+
+.divider-light {
+    height: 1px;
+    background: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+/* Table Header */
+.table-header {
+    display: grid;
+    grid-template-columns: 2fr 1fr 0.7fr 1fr;
+    font-size: 13px;
+    font-weight: 600;
+    color: #777;
+}
+
+/* Product Row */
+.product-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 0.7fr 1fr;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.product-name {
+    font-weight: 500;
+}
+
+.product-price {
+    text-align: right;
+    color: #555;
+}
+
+.product-qty {
+    text-align: center;
+    font-weight: 500;
+}
+
+.product-total {
+    text-align: right;
+    font-weight: 600;
+}
