@@ -25,3 +25,5 @@
    + cd order-service : chạy lệnh npm start
    + cd gateway : chạy lệnh npm start
    + cd frontend : chạy lệnh npm start
+
+#GraphQL Federation : làm tương tự như hướng dẫn bên trên
