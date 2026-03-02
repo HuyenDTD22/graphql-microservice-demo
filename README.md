@@ -9,7 +9,7 @@
   + gateway (GraphQL BFF): chạy cổng 4000
   + frontend (React): chạy cổng 3000
  
-- Kiến trúc: Frontend → GraphQL Gateway → REST Microservices
+- Kiến trúc: Frontend → GraphQL Gateway → Service
 
 - Sau khi clone về, ở terminal:
   + cd user-service : chạy lệnh npm install
